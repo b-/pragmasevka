@@ -5,7 +5,7 @@ serifs = "sans"
 no-cv-ss = true
 export-glyph-names = true
 
-hintParams = ["-a", "qqq"]   
+hintParams = ["-a", "qqq"]
 
     [buildPlans.pragmasevka.widths.normal]
     shape = 500
@@ -23,7 +23,7 @@ hintParams = ["-a", "qqq"]
         "kern-dotty",
         "kern-bars",
         "llggeq",
-        "connected-underscore", 
+        "connected-underscore",
         "connected-number-sign",
         "connected-hyphen"
     ]
@@ -31,6 +31,14 @@ hintParams = ["-a", "qqq"]
 
     [buildPlans.pragmasevka.variants]
     inherits = "ss08"
+
+        [buildPlans.pragmasevka.variants.design]
+        capital-b = "more-asymmetric-serifless"
+        capital-d = "standard-serifless"
+        capital-g = "toothless-rounded-serifless-hooked"
+        i = "serifed-asymmetric"
+        l = "serifed-asymmetric"
+        r = "hookless-serifless"
 
     [buildPlans.pragmasevka.weights.regular]
     shape = 425
@@ -41,7 +49,7 @@ hintParams = ["-a", "qqq"]
     shape = 600
     menu = 600
     css = 600
-    
+
     [buildPlans.pragmasevka.weights.bold]
     shape = 800
     menu = 700
